@@ -1,0 +1,68 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: open sans, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  margin: 0;
+  padding: 0;
+  color: #364147;
+  background-color: #fff;
+}
+
+.content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+  padding: 20px;
+}
+
+.content .link {
+  color: black;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.content header {
+  padding: 20px;
+}
+
+.content header .header-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 10vh;
+  background: rgba(243, 81, 6, 0.973);
+  text-decoration: none;
+}
+
+.content header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #0597e6;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.content header ul li {
+  list-style-type: none;
+  margin: 0 50px;
+}
+
+.content header ul .nav-link {
+  color: black;
+  text-decoration: none;
+}
+/*# sourceMappingURL=App.css.map */
