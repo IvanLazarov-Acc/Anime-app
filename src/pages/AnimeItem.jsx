@@ -1,14 +1,15 @@
 import React from "react";
 
-function AnimeItem({data}) {
+function AnimeItem({ data }) {
   return (
-    <div>
-      <ul>
+    <div className="list-container">
+      <ul className="anime-list">
         {data.map((item) => {
           return (
-            <li key={item.mal_id}>
-              <h2>{item.title}</h2>
-              <img src={item.image_url} alt="" />
+            <li className="anime-list-item" key={item.mal_id}>
+              <h3>{item.title}</h3>
+              <img className="anime-image" src={item.image_url} alt="" />
+              <p className="description">{item.synopsis}</p>
             </li>
           );
         })}
