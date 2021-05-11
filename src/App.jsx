@@ -1,5 +1,5 @@
 import "./styles/App.css";
-import Navigation from "./pages/Header";
+import Header from "./pages/Header";
 import { BrowserRouter as  Route, Switch } from "react-router-dom";
 import Animes from "./pages/Animes";
 import Characters from "./pages/Characters";
@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div className="content">
-        <Navigation />
+        <Header />
         <main>
           <Switch>
             <Route path="/" exact>

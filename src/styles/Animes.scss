@@ -1,3 +1,5 @@
+
+
 $primaryColor: rgb(8, 143, 143);
 $seconderyColor: rgb(7, 131, 168);
 $darkThemeColor: rgb(32, 30, 30);
@@ -19,12 +21,13 @@ $borderRadius: 10px;
   align-items: center;
 
   .animeFormInput {
-    width: 400px;
-    min-width: 200px;
+    width: 438px;
     padding: 10px;
+    color:#000;
     font-weight: bold;
     border-radius: $borderRadius;
     border-color: $primaryColor;
+    margin-left:40px;
     margin-right: 5px;
 
     // background-color:
@@ -39,67 +42,79 @@ $borderRadius: 10px;
   }
 }
 
-//Anime Item
-.list-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  .anime-list {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: minmax(150px, auto);
-    grid-gap: 70px;
-    align-items: start;
+@media (max-width: 1280px) {
+  .formHolder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    .animeFormInput {
+      width: 300px;
+    }
+  
+    .submitButton {
+      width: 130px;
+      min-width: 50px;
+      background-color: $primaryColor;
+      padding: 10px;
+      border-radius: $borderRadius;
+    }
+  }
+}
 
-    .anime-list-item {
-      margin-top: 50px;
-      list-style-type: none;
+@media (max-width: 950px) {
+  .formHolder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    .animeFormInput {
+      width: 250px;
+    }
+  
+    .submitButton {
+      width: 130px;
+      min-width: 50px;
+      background-color: $primaryColor;
+      padding: 10px;
+      border-radius: $borderRadius;
+    }
+  }
+}
+
+@media (max-width: 630px) {
+  .formHolder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .animeForm{
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      border: solid 2px black;
-      border-radius: $borderRadius;
-      border-color: $primaryColor;
-      padding: 10px;
+
+      
+    .animeFormInput {
       width: 250px;
-      height: 400px;
-      position: relative;
-
-      h3 {
-        width: 200px;
-        min-width: 100px;
-        text-overflow: ellipsis;
-        overflow: hidden;
-        white-space: nowrap;
-      }
-
-      h3:hover {
-        overflow-x: auto;
-        text-overflow: ellipsis;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
-      }
-
-      .anime-image {
-        height: 200px;
-        width: 200px;
-        min-height: 100px;
-        min-width: 100px;
-        border-radius: $borderRadius;
-      }
-      .description {
-        width: 200px;
-        min-width: 100px;
-        height: 100px;
-        white-space: initial;
-        overflow: hidden;
-        overflow-y: scroll;
-        overflow-x: hidden;
-      }
+      margin: 0;
     }
+  
+    .submitButton {
+      width: 130px;
+      min-width: 50px;
+      background-color: $primaryColor;
+      padding: 10px;
+      border-radius: $borderRadius;
+      margin-top: 5px;
+    }
+    }
+  
   }
 }
+
+
+

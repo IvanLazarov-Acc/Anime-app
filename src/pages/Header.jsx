@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import ToggleButton from "../components/ToggleButton";
-import "../styles/App.css";
+// import ToggleButton from "../components/ToggleButton";
+import "../styles/Header.css";
 
 export default function Header() {
   return (
@@ -24,9 +24,9 @@ export default function Header() {
                 Characters
               </NavLink>
             </li>
-            <li className="last-nav-item">
+            {/* <li className="last-nav-item">
               <ToggleButton />
-            </li>
+            </li> */}
           </ul>
         </nav>
       </header>

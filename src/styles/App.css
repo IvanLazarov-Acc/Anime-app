@@ -42,68 +42,7 @@ body {
 }
 
 .content {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 0 auto;
-          flex: 1 0 auto;
   padding: 20px;
-}
-
-.content .link {
-  list-style-type: none;
-  text-decoration: none;
-}
-
-.content header {
-  padding: 20px;
-}
-
-.content header .header-text {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 10vh;
-  background: #088f8f;
-  text-decoration: none;
-}
-
-.content header ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background: #0783a8;
-  padding: 10px;
-  font-size: 16px;
-}
-
-.content header ul li {
-  list-style-type: none;
-  margin: 0 20px;
-}
-
-.content header ul .nav-link {
-  font-size: 1.5rem;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.content header ul .first-nav-item {
-  margin-left: auto;
-}
-
-.content header ul .last-nav-item {
-  margin-left: auto;
 }
 
 .pagination {

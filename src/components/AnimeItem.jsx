@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/AnimeItem.css";
 
 function AnimeItem({ data }) {
   return (

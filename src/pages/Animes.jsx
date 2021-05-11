@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
-import AnimeItem from "./AnimeItem";
+import AnimeItem from "../components/AnimeItem";
 import Pagination from "../components/Pagination";
 import "../styles/Animes.css";
+
 
 function Animes() {
   const [anime, setAnime] = useState("");
