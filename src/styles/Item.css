@@ -14,7 +14,7 @@
           align-items: center;
 }
 
-.list-container .anime-list {
+.list-container .list {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[4];
@@ -25,7 +25,7 @@
           align-items: start;
 }
 
-.list-container .anime-list .anime-list-item {
+.list-container .list .list-item {
   margin-top: 50px;
   list-style-type: none;
   display: -webkit-box;
@@ -50,7 +50,7 @@
   position: relative;
 }
 
-.list-container .anime-list .anime-list-item h3 {
+.list-container .list .list-item h3 {
   width: 200px;
   min-width: 100px;
   text-overflow: ellipsis;
@@ -58,7 +58,7 @@
   white-space: nowrap;
 }
 
-.list-container .anime-list .anime-list-item h3:hover {
+.list-container .list .list-item h3:hover {
   overflow-x: auto;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -74,7 +74,7 @@
           align-items: center;
 }
 
-.list-container .anime-list .anime-list-item .anime-image {
+.list-container .list .list-item .item-image {
   height: 200px;
   width: 200px;
   min-height: 100px;
@@ -82,7 +82,7 @@
   border-radius: 10px;
 }
 
-.list-container .anime-list .anime-list-item .description {
+.list-container .list .list-item .description {
   width: 200px;
   min-width: 100px;
   height: 100px;
@@ -93,7 +93,7 @@
 }
 
 @media (max-width: 1280px) {
-  .list-container .anime-list {
+  .list-container .list {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (1fr)[3];
@@ -107,7 +107,7 @@
 }
 
 @media (max-width: 950px) {
-  .list-container .anime-list {
+  .list-container .list {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (1fr)[2];
@@ -120,7 +120,7 @@
 }
 
 @media (max-width: 630px) {
-  .list-container .anime-list {
+  .list-container .list {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (1fr)[1];
@@ -132,4 +132,4 @@
             align-items: start;
   }
 }
-/*# sourceMappingURL=AnimeItem.css.map */
+/*# sourceMappingURL=Item.css.map */

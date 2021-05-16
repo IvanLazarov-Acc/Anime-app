@@ -2,7 +2,7 @@ import "./styles/App.css";
 import Header from "./pages/Header";
 import { BrowserRouter as  Route, Switch } from "react-router-dom";
 import Animes from "./pages/Animes";
-import Characters from "./pages/Characters";
+import Characters from "./pages/Mangas";
 import Home from "./pages/Home";
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
             <Route path="/animes">
               <Animes />
             </Route>
-            <Route path="/characters">
+            <Route path="/mangas">
               <Characters />
             </Route>
           </Switch>

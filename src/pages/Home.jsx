@@ -1,10 +1,16 @@
 import React from "react";
+import "../styles/App.css";
+import  image from "../styles/images/torii.jpg";
+
+ 
 
 function Home() {
+  
   return (
-    <>
-      <h1>This is the Home page</h1>
-    </>
+    <div className="home-container">
+      <h2>Welcome to your anime world!</h2>
+      <img className="home-image" src={image} alt="Welcoming torii..." />
+    </div>
   );
 }
 

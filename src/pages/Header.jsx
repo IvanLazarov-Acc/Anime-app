@@ -20,8 +20,8 @@ export default function Header() {
               </NavLink>
             </li>
             <li>
-              <NavLink className="nav-link" to="/characters">
-                Characters
+              <NavLink className="nav-link" to="/mangas">
+                Mangas
               </NavLink>
             </li>
             {/* <li className="last-nav-item">

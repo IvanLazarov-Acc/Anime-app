@@ -1,21 +1,22 @@
+
 import React, { useEffect, useState } from "react";
 import Item from "../components/Item";
 import Pagination from "../components/Pagination";
-import "../styles/Animes.css";
+import "../styles/Mangas.css";
 
 
-function Animes() {
+function Mangas() {
   const [anime, setAnime] = useState("");
   const [data, setData] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   // const [isValidated, setValidated] = useState(false);
   const [error, setError] = useState(null);
-  const [query, setQuery] = useState("https://api.jikan.moe/v3/search/anime");
+  const [query, setQuery] = useState("https://api.jikan.moe/v3/search/manga");
   const [currentPage, setCurrentPage] = useState(1);
   const [animesPerPage] = useState(12);
 
   const fetchData = (query) => {
-    fetch(`https://api.jikan.moe/v3/search/anime?q=${query}`)
+    fetch(`https://api.jikan.moe/v3/search/manga?q=${query}`)
       .then((response) => {
         if (response.ok) {
           const result = response.json();
@@ -62,11 +63,11 @@ function Animes() {
   return (
     <div className="formHolder">
       {/* <h1>This is the Animes page</h1> */}
-      <form onSubmit={handleSubmit} className="animeForm">
+      <form onSubmit={handleSubmit} className="mangaForm">
         <input
-          className="animeFormInput"
+          className="mangaFormInput"
           type="text"
-          placeholder="Anime?"
+          placeholder="Manga?"
           value={anime}
           onChange={handleChange}
         />
@@ -87,4 +88,5 @@ function Animes() {
   );
 }
 
-export default Animes;
+
+export default Mangas;

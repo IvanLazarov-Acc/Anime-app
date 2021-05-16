@@ -1,0 +1,144 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #cecdcd;
+}
+
+.formHolder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.formHolder .mangaFormInput {
+  width: 438px;
+  padding: 10px;
+  color: #000;
+  font-weight: bold;
+  border-radius: 10px;
+  border-color: #088f8f;
+  margin-left: 40px;
+  margin-right: 5px;
+}
+
+.formHolder .submitButton {
+  width: 130px;
+  min-width: 50px;
+  background-color: #088f8f;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+@media (max-width: 1280px) {
+  .formHolder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .formHolder .mangaFormInput {
+    width: 300px;
+  }
+  .formHolder .submitButton {
+    width: 130px;
+    min-width: 50px;
+    background-color: #088f8f;
+    padding: 10px;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 950px) {
+  .formHolder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .formHolder .mangaFormInput {
+    width: 250px;
+  }
+  .formHolder .submitButton {
+    width: 130px;
+    min-width: 50px;
+    background-color: #088f8f;
+    padding: 10px;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 630px) {
+  .formHolder {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .formHolder .mangaForm {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .formHolder .mangaForm .mangaFormInput {
+    width: 250px;
+    margin: 0;
+  }
+  .formHolder .mangaForm .submitButton {
+    width: 130px;
+    min-width: 50px;
+    background-color: #088f8f;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+  }
+}
+/*# sourceMappingURL=Mangas.css.map */

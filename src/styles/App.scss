@@ -49,6 +49,22 @@ body {
   padding: 20px;
 }
 
+//home page
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  .home-image {
+    position: relative;
+    // top: 0.2%;
+    width: 98%;
+    z-index: -1;
+  }
+}
+
 //pagination
 .pagination {
   display: flex;
@@ -68,12 +84,3 @@ body {
     }
   }
 }
-
-// @media (min-width: 1280px) {
-// }
-
-// @media (min-width: 950px) {
-// }
-
-// @media (min-width: 630px) {
-// }

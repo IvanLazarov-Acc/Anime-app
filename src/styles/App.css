@@ -45,6 +45,29 @@ body {
   padding: 20px;
 }
 
+.home-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.home-container .home-image {
+  position: relative;
+  width: 98%;
+  z-index: -1;
+}
+
 .pagination {
   display: -webkit-box;
   display: -ms-flexbox;

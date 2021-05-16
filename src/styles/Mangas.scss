@@ -1,0 +1,117 @@
+
+
+$primaryColor: rgb(8, 143, 143);
+$seconderyColor: rgb(7, 131, 168);
+$darkThemeColor: rgb(32, 30, 30);
+$whiteThemeColor: rgb(206, 205, 205);
+$borderRadius: 10px;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  color: $whiteThemeColor;
+}
+//Anime
+
+.formHolder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .mangaFormInput {
+    width: 438px;
+    padding: 10px;
+    color:#000;
+    font-weight: bold;
+    border-radius: $borderRadius;
+    border-color: $primaryColor;
+    margin-left:40px;
+    margin-right: 5px;
+
+    // background-color:
+  }
+
+  .submitButton {
+    width: 130px;
+    min-width: 50px;
+    background-color: $primaryColor;
+    padding: 10px;
+    border-radius: $borderRadius;
+  }
+}
+
+@media (max-width: 1280px) {
+  .formHolder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    .mangaFormInput {
+      width: 300px;
+    }
+  
+    .submitButton {
+      width: 130px;
+      min-width: 50px;
+      background-color: $primaryColor;
+      padding: 10px;
+      border-radius: $borderRadius;
+    }
+  }
+}
+
+@media (max-width: 950px) {
+  .formHolder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    .mangaFormInput {
+      width: 250px;
+    }
+  
+    .submitButton {
+      width: 130px;
+      min-width: 50px;
+      background-color: $primaryColor;
+      padding: 10px;
+      border-radius: $borderRadius;
+    }
+  }
+}
+
+@media (max-width: 630px) {
+  .formHolder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .mangaForm{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      
+    .mangaFormInput {
+      width: 250px;
+      margin: 0;
+    }
+  
+    .submitButton {
+      width: 130px;
+      min-width: 50px;
+      background-color: $primaryColor;
+      padding: 10px;
+      border-radius: $borderRadius;
+      margin-top: 5px;
+    }
+    }
+  
+  }
+}
